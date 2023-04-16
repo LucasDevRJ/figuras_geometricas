@@ -4,20 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h2>Desenhe figuras geométricas</h2>
+	<div class="caixa">
+		<h2>Desenhe figuras geométricas</h2>
 
-	<input type="radio" name="figura-geometrica" value="quadrado"> Quadrado
-	<input type="radio" name="figura-geometrica" value="triangulo"> Triângulo
+		<div class="figuras">
+			<input type="radio" name="figura-geometrica" value="quadrado"> Quadrado
+			<input type="radio" name="figura-geometrica" value="triangulo"> Triângulo
+		</div>
 
-	<p>Digite o tamanho da figura geométrica escolhida:</p>
-	<input type="text" id="tamanho">
+		<p>Digite o tamanho da figura geométrica escolhida:</p>
+		<input type="text" id="tamanho">
 
-	<button onclick="desenhaFiguraGeometrica()">Desenhar</button>
-	
-	<div id="campo-desenho">
+		<button onclick="desenhaFiguraGeometrica()">Desenhar</button>
 		
+		<div id="campo-desenho">
+			
+		</div>
 	</div>
 
 	<script src="javaScript/index.js"></script>
