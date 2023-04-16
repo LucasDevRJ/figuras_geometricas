@@ -10,13 +10,17 @@
 	<div class="caixa">
 		<h2>Desenhe figuras geométricas</h2>
 
-		<p>Escolha a figura desejada:</p>
+		<p class="texto">Escolha a figura desejada:</p>
 		<div class="figuras">
-			<input type="radio" name="figura-geometrica" value="quadrado"> Quadrado
-			<input type="radio" name="figura-geometrica" value="triangulo"> Triângulo
+			<p class="texto">
+				<input type="radio" name="figura-geometrica" value="quadrado"> Quadrado
+			</p>
+			<p class="texto">
+				<input type="radio" name="figura-geometrica" value="triangulo"> Triângulo
+			</p>
 		</div>
 
-		<p>Digite o tamanho da figura geométrica escolhida:</p>
+		<p class="texto">Digite o tamanho da figura geométrica escolhida:</p>
 		<input type="text" id="tamanho">
 
 		<button onclick="desenhaFiguraGeometrica()">Desenhar</button>
