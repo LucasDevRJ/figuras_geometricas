@@ -32,11 +32,12 @@ function desenhaFiguraGeometrica() {
 					for (var coluna = 0; coluna < tamanho; coluna++) {
 						if (coluna < linha) {
 							var desenho  = document.createTextNode("*");
-							campoDesenho.appendChild(desenho);
+							p.appendChild(desenho);
+							campoDesenho.appendChild(p);
 						}
 					}
 					var br = document.createElement('br');
-					campoDesenho.appendChild(br);
+					p.appendChild(br);
 				}
 			}
 		} else {
