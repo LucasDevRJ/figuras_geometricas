@@ -2,7 +2,7 @@ function desenhaFiguraGeometrica() {
 	var figurasGeometricas = document.getElementsByName("figura-geometrica");
 	var campoTamanho = document.getElementById("tamanho");
 	var campoDesenho = document.getElementById("campo-desenho");
-
+	
 	// Criar elemento
 	var p = document.createElement('p');
 	p.style.color = "#FFFFFF";
@@ -40,8 +40,6 @@ function desenhaFiguraGeometrica() {
 					p.appendChild(br);
 				}
 			}
-		} else {
-			console.log("Escolha alguma figura");
 		} 
 	} 
 }
