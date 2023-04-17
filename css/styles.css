@@ -21,8 +21,31 @@ body {
 	width: 15%;
 	padding: 10px 15px;
 	font-size: 15px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.entrada:focus {
+	background-color: #000000;
+	color: #FFFFFF;
 }
 
 .figuras {
 	display: flex;
+}
+
+.botao {
+	width: 10%;
+	padding: 12px 0;
+	margin: 20px 0;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+	
+}
+
+@media screen and (min-width: 501px) and (max-width: 1240px) {
+	
 }
