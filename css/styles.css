@@ -8,6 +8,13 @@ body {
     align-items: center;
 }
 
+.titulo {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 7px;
+	border-radius: 5px;
+}
+
 .texto {
 	color: #FFFFFF;
 	font-size: 20px;
@@ -40,10 +47,26 @@ body {
 	padding: 12px 0;
 	margin: 20px 0;
 	cursor: pointer;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #000000;
+	font-weight: bold;
+}
+
+.botao:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 
 @media screen and (min-width: 200px) and (max-width: 500px) {
-	
+	.titulo, .texto {
+		text-align: center;
+	}
+
+	.entrada, .botao {
+		width: 40%;
+	}
 }
 
 @media screen and (min-width: 501px) and (max-width: 1240px) {
